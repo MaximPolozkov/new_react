@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Lexend+Giga:wght@100..900&display=swap');
+
+// .wrapper{
+//   min-height: 100%;
+//   display: flex;
+//   flex-direction: column;
+// }
+
+.container{
+  // width: 1600px;
+  padding-left: calc(50% - 1440px);
+  padding-right: calc(50% - 1440px);
+ 
+}
+
+// .App{
+//   flex: 1 1 auto;
+// }
+
+
+@import 'mobile';

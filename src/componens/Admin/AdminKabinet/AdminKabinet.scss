@@ -1,0 +1,167 @@
+.wrapperAdmin{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+}
+
+.spisokUl{
+    width: 20%;
+    height: 100vh;
+    background-color: #00ffff33;
+    text-align: center;
+}
+
+.spisokUl h1{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    color: #f47fffd9;
+}
+
+.menuAd{
+    width: 100%;
+    cursor: pointer;
+}
+
+.sAd{
+    width: 100%;
+    height: fit-content;
+    padding: 10px 0 10px 0px;
+    display: inline-block;
+    text-decoration: none;
+    color: #2c09f0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.spisokRight{
+    width: 80%;
+    height: fit-content;
+    float: right;
+}
+
+.glawWrapper{
+    width: 100%;
+    height: fit-content; 
+}
+
+.glawCenter{
+    display: flex;
+    flex-direction: row;
+}
+
+.glawContent{
+    width: fit-content;
+    height: fit-content;
+    margin: 10px 0 0 10px;
+    text-align: center;
+}
+
+.glawContent button{
+    width: 140px;
+    height: fit-content;
+    border: 1px solid yellow;
+    background-color: #ffd100;
+    font-size: 15px;
+    font-weight: 700;
+    color: #7400ee;
+    margin-top: 10px;
+    padding: 5px 0 5px 0px;
+    border-radius: 10px;
+}
+
+.glawImg{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.glawImg img{
+    width: 173px;
+    height: 175px;
+    border: 2px solid yellow;
+}
+
+.glawImg input[type="file"]{
+    display: none;
+}
+
+
+.glawImg button{
+    width: 140px;
+    height: fit-content;
+    border: 1px solid yellow;
+    background-color: #ffd100;
+    font-size: 15px;
+    font-weight: 700;
+    color: #7400ee;
+    margin-top: 10px;
+    padding: 5px 0 5px 0px;
+    border-radius: 10px;
+}
+
+.glawFio{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.glawFio input{
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.adminLoadUslugi{
+    width: 50%;
+    height: 100vh;
+    display: flex; 
+    flex-direction: column; 
+    text-align: center;
+}
+.adminUslugi{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+.uslugiLoad{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.adminLoadUslugi input{
+    width: 100%;
+   margin-bottom: 10px;
+}
+
+.adminLoadUslugi button{
+    width: 100%;
+}
+
+.my{
+    width: 100%;
+    height: 50px;
+}
+
+.spisokUslug {
+    display: flex;
+    flex-direction: row;
+}
+
+.spisokTable {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.spisokTable div {
+    width: fit-content;
+    height: fit-content;
+}

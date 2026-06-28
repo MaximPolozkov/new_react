@@ -1,0 +1,55 @@
+@import 'var';
+
+.avatarheader{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: row;
+    gap: 15px;
+
+    &__wrapper{
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+        height: fit-content;
+}
+
+    &__wrapper h1{
+        font-size: 20px;
+        font-family: $font-sit;
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    &__logo{
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+    
+}
+
+    &__img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+
+}
+
+     &__link{
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+}
+
+    &__link{
+        list-style: none;
+        font-size: 16px;
+        font-family: $font-sit;
+        font-weight: 300;
+        font-style: normal;
+    }
+}
+

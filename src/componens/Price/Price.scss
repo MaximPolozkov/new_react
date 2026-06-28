@@ -1,0 +1,54 @@
+@import 'var';
+
+.prices{
+    display: flex;
+    flex-direction: column;
+
+    &__name{
+        margin: 20px 0;
+    }
+
+    &__name h1{
+        font-size: 50px;
+        font-family: $font-sit;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    &__wrapper{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__table{
+        border: 2px white solid;
+        border-collapse: collapse;
+    }
+
+    &__tablewrapper{
+        width: 100%;
+        border: 2px white solid;
+    }
+
+    &__li{
+        width: 25%;
+        border: 2px white solid;
+
+        font-size: 20px;
+        font-family: $font-sit;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    &__liname{
+        width: 25%;
+        border: 2px white solid;
+
+        font-size: 30px;
+        font-family: $font-sit;
+        font-weight: bold;
+        font-style: normal;
+    }
+}

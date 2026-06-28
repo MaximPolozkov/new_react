@@ -1,0 +1,42 @@
+.block__content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffff00;
+    transition: 0.4s all;;
+}
+
+.block__content.active{
+    transform: scale(1);
+}
+
+.block__close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.block__close-line {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.block__close-line--first{
+    transform: rotate(45deg);
+}
+
+.block__close-line--second {
+    transform: rotate(-45deg);
+}

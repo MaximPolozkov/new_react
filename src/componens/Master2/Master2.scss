@@ -1,0 +1,39 @@
+.Master2{
+    width: 50%;
+    height: 620px;
+    position: relative;
+    
+}
+
+.ObMaster2{
+    width: 100%;
+    height: 620px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.imgMaster2{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+    background-size: cover;
+}
+
+.buttonMaster2{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    bottom: 0;
+}
+
+.nameMaster2{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    font-size: 35px;
+}
+

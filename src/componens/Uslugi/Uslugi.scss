@@ -1,0 +1,41 @@
+@import 'var';
+
+.uslugi{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+
+    &__h1{
+        margin-bottom: 85px;
+        margin-top: 50px;
+
+        font-size: 35px;
+        font-family: $font-sit;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    &__wrapperuslugi{
+        width: 100%;
+        height: fit-content;
+}
+
+    &__buttonuslugi{
+        margin-bottom: 10px;
+        width: 100%;
+        height: fit-content;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        cursor: pointer;
+
+        font-size: 20px;
+        font-family: $font-sit;
+        font-weight: 100;
+        font-style: normal;
+}
+}
+
+
+
+
+
